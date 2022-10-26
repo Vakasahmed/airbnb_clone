@@ -186,7 +186,7 @@ const NewThisWeek = _ => {
                         </ImageList>
                     </Box>
                     <Container className="chipContainer" maxWidth="false" style={{ marginLeft: 65, width: "auto", marginRight: 100 }}>
-                        <div className="App">
+                        <div className="App chips">
                             <Stack direction="row" spacing={1.5} width="30%" justifyContent="flex-start">
                                 <Chip style={{ height: 40, width: "auto", fontSize: 18, backgroundColor: "white", border: "1px solid rgba(0,0,0,0.3)" }} label="Dates" onClick={handleClick} />
                                 <Chip style={{ height: 40, width: "auto", fontSize: 18, backgroundColor: "white", border: "1px solid rgba(0,0,0,0.3)" }} label="Group Size" onClick={handleClick} />
